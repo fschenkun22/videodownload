@@ -7,7 +7,7 @@ Define command format
 
 
 class CommandFormat:
-    def __init__(self, cmd, addr, proxy):
+    def __init__(self, cmd, url, proxy):
         self.cmd = cmd
-        self.addr = addr
+        self.url = url
         self.proxy = proxy
